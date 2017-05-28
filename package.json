@@ -1,0 +1,24 @@
+{
+  "name": "image-search",
+  "version": "1.0.0",
+  "description": "Image search api",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "g-nor",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.17.2",
+    "express": "4.15.3",
+    "request": "2.81.0",
+    "sequelize": "*",
+    "sqlite3": "*"
+  },
+    "engines": {
+    "node": "6.10.x"
+  },
+  "devDependencies": {
+    "dotenv": "^4.0.0"
+  }
+}
